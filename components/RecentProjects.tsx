@@ -7,7 +7,7 @@ import { PinContainer } from "./ui/Pin";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20  dark:bg-black bg-white  dark:bg-dot-white/[0.2] bg-dot-black/[0.2]">
+    <section id="projects" className="py-20  dark:bg-black bg-white  dark:bg-dot-white/[0.2] bg-dot-black/[0.2]">
       <h1 className="heading">
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
@@ -76,7 +76,7 @@ const RecentProjects = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
